@@ -21,8 +21,8 @@
 
 @font-face
 {
-    font-family: champagnelight;
-    src: url(../fonts/champagne.ttf);
+    font-family: cl;
+    src: url(../fonts/cl.ttf);
 }
 
 @font-face
@@ -39,7 +39,7 @@ h2#name{
 
 
 .links{
-    font-family: champagneBold;
+    font-family: cl;
     font-size: 150%;
     position: absolute;
     top: 5px;
@@ -60,7 +60,7 @@ body {
 }
 
 .timeline-title, .panel-title, .title{
-    font-family: champagneBold;
+    font-family: cl;
     font-weight: 800;
 }
 
@@ -76,7 +76,7 @@ body {
 }
 
 p, .table {
-    font-family: champagneLight;
+    font-family: cl;
     font-size: 120%;
 }
 
