@@ -15,8 +15,8 @@
 
 @font-face
 {
-    font-family: champagnebold;
-    src: url(../fonts/hampagneBold.ttf);
+    font-family: clbold;
+    src: url(../fonts/clbold.ttf);
 }
 
 @font-face
@@ -39,7 +39,7 @@ h2#name{
 
 
 .links{
-    font-family: cl;
+    font-family: clbold;
     font-size: 150%;
     position: absolute;
     top: 5px;
@@ -60,7 +60,7 @@ body {
 }
 
 .timeline-title, .panel-title, .title{
-    font-family: cl;
+    font-family: clbold;
     font-weight: 800;
 }
 
