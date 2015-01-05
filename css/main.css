@@ -7,30 +7,6 @@
     src: url(../fonts/tag.ttf);
 }
 
-@font-face
-{
-    font-family: coffee;
-    src: url(../fonts/coffee.ttf);
-}
-
-@font-face
-{
-    font-family: clbold;
-    src: url(../fonts/clbold.ttf);
-}
-
-@font-face
-{
-    font-family: cl;
-    src: url(../fonts/cl.ttf);
-}
-
-@font-face
-{
-    font-family: vanlose;
-    src: url(../fonts/vanlose.otf);
-}
-
 h2#name{
     font-family:tag; 
     font-size: 400%;
@@ -39,11 +15,11 @@ h2#name{
 
 
 .links{
-    font-family: clbold;
+    font-family: Avenir Next;
     font-size: 150%;
     position: absolute;
     top: 5px;
-    right: 25px;
+    right: 60px;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -55,13 +31,13 @@ body {
 }
 
 .page-header{
-    border-bottom-color: #89C4F4;
+    border-bottom-color: #1F4788;
     border-bottom-width: 5px;
 }
 
 .timeline-title, .panel-title, .title{
-    font-family: clbold;
-    font-weight: 800;
+    font-family: Avenir Next;
+    fon-size: 100%
 }
 
 .panel-title{
@@ -76,8 +52,8 @@ body {
 }
 
 p, .table {
-    font-family: cl;
-    font-size: 120%;
+    font-family: Avenir Next;
+    font-size: 110%
 }
 
 a {
@@ -115,7 +91,7 @@ h2 {color: white; }
   position: absolute;
   content: " ";
   width: 10px;
-  background-color: #89C4F4;
+  background-color: #1F4788;
   left: 2px;
   margin-left: -1.5px;
 }
@@ -207,17 +183,9 @@ h2 {color: white; }
   left: -14px;
   right: auto;
 }
-.timeline-badge.primary {
-  background-color: #2e6da4 !important;
-}
-.timeline-badge.success {
-  background-color: #3f903f !important;
-}
-.timeline-badge.warning {
-  background-color: #f0ad4e !important;
-}
+
 .timeline-badge.danger {
-  background-color: black !important;
+  background-color: gray !important;
 }
 .timeline-badge.info {
   background-color: #5bc0de !important;
@@ -234,6 +202,48 @@ h2 {color: white; }
   margin-top: 5px;
 }
 
+/* Block Quote*/
+blockquote #quote{
+    font-family: Avenir Next;
+    font-size: 27px;
+    font-style: italic;
+    width: 500px;
+    margin: .25em 0;
+    padding: 0.25em 40px 0.10px;
+    line-height: 1.45;
+    position: relative;
+    color: #383838;
+}
+
+blockquote #quote:before {
+    display: block;
+    content: "\201C";
+    font-family: Georgia, serif;
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: #7a7a7a;
+}
+
+blockquote #translation {
+    font-family: Avenir Next;
+    font-size: 13px;
+    text-indent: 40px;
+}
+
+blockquote cite {
+    color: #999999;
+    font-size: 16px;
+    display: block;
+    margin-top: 5px;
+    text-align: right;
+}
+ 
+blockquote cite:before {
+    content: "\2014 \2009";
+}
+
 .row {
     overflow:hidden;
     margin:10px;
@@ -246,6 +256,7 @@ img {
 .line-break {
     height:1px;
     background: white;
+    margin-top: 3px;
     border-bottom:4px solid #C1C1BE;
 }
 
@@ -254,8 +265,8 @@ img {
 }
 
 .navbar-inverse {
-    background-color: #E4F1FE;
-    border-bottom-color: #E4F1FE;
+    background-color: #1F4788;
+    border-bottom-color: #1F4788;
 }
 
 .icons{
